@@ -18,7 +18,9 @@
 </head>
 <body>
     <div id="app">
-       <x-layout-header/>
+        @include('layouts._header')
+
+
 
         <main class="py-4">
             @yield('content')
@@ -26,3 +28,4 @@
     </div>
 </body>
 </html>
+
